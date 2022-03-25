@@ -52,3 +52,32 @@ a{
 
 
 /* section styling */
+
+/*------Navigation Menu------*/
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+.nav-brand{                 /* Home page title design */
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    font-size: 30px;
+}
+
+.collapse{
+    align-self: center;
+}
+
+.nav-link{
+    font-size: 18px;
+    margin: 12px;
+    color: var(--dark);
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------Navigation Menu------*/
