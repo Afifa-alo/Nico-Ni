@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
 
-/* font-family: 'DM Sans', sans-serif;
+/* 
+font-family: 'DM Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; 
 */
@@ -15,6 +16,7 @@ font-family: 'Roboto', sans-serif;
     --secondary-color: #2ec4b6;    /* Light Sea Green */
     --border: #e9ecef;             /* Solitude */
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -28,7 +30,25 @@ a{
 *>*{
     box-sizing: border-box;
 }
+
+
 /* global styling */
+.text-light{
+    color: var(--light);
+}
+.text-secondary{
+    color: var(--secondary);
+}
+.text-dark{
+    color: var(--dark);
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.bg-light{
+    background-color: var(--light);
+}
+
 
 
 /* section styling */
