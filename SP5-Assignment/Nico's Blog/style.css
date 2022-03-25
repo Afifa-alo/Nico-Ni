@@ -51,7 +51,7 @@ a{
 
 .container{
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 0 10px;
     margin: auto;
 }
 
@@ -154,10 +154,11 @@ a{
 
 .grid{
     margin: 0 auto;
+    
 }
 
 .grid .grid-item{
-    width: calc(33.3333%);
+    width: calc(32%);
     margin-bottom: 3em;
 }
 /*-----.Main Section------*/
