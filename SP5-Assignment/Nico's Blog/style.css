@@ -6,6 +6,15 @@ font-family: 'Roboto', sans-serif;
 */
 
 /* root styling */
+
+:root{
+    --light: #f8f9fa;              /* Alice Blue */
+    --secondary: #adb5bd;          /* Heather */
+    --dark: #343a40;               /* Baltic Sea */
+    --primary-color: #f15bb5;      /* Hot Pink */
+    --secondary-color: #2ec4b6;    /* Light Sea Green */
+    --border: #e9ecef;             /* Solitude */
+}
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
