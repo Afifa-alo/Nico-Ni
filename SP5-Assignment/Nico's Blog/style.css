@@ -127,6 +127,7 @@ a{
     .collapse{
         max-height: 0;
         overflow: hidden;
+        transition: all 0.8s ease-in-out;
     }
 
     .collapse .nav-link{
