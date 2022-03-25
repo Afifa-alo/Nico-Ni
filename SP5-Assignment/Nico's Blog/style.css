@@ -84,6 +84,10 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-link:hover{
+    color: var(--primary-color);
+}
+
 .search-box{
     display: inline;
     border-right: 1px solid var(--secondary);
